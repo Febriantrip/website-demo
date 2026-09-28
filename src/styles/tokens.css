@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap');
+
+:root {
+  --bg: #f3f0e8;
+  --bg-soft: #e9e5da;
+  --surface: #ffffff;
+  --ink: #07110e;
+  --ink-soft: #122019;
+  --muted: #6b756f;
+  --line: rgba(7, 17, 14, .14);
+  --accent: #b7ff4a;
+  --accent-2: #6c9f2b;
+  --accent-soft: rgba(183,255,74,.16);
+  --hero: #07110e;
+  --hero-2: #0d211a;
+  --hero-text: #ffffff;
+  --display: 'Manrope', system-ui, sans-serif;
+  --body: 'Manrope', system-ui, sans-serif;
+  --mono: 'DM Mono', monospace;
+  --mx: 50vw;
+  --my: 50vh;
+  --px: 0;
+  --py: 0;
+}
+
+:root[data-industry='retail'] {
+  --bg: #f4f1e9;
+  --bg-soft: #ece6dc;
+  --ink: #111018;
+  --ink-soft: #201d29;
+  --muted: #756f78;
+  --line: rgba(17,16,24,.14);
+  --accent: #ff5c35;
+  --accent-2: #3157ff;
+  --accent-soft: rgba(255,92,53,.15);
+  --hero: #191626;
+  --hero-2: #24203a;
+}
+
+:root[data-industry='fashion'] {
+  --bg: #efebe4;
+  --bg-soft: #e4ded5;
+  --ink: #161311;
+  --ink-soft: #28221e;
+  --muted: #746b64;
+  --line: rgba(22,19,17,.15);
+  --accent: #9c1d22;
+  --accent-2: #d9b69b;
+  --accent-soft: rgba(156,29,34,.12);
+  --hero: #eee9e2;
+  --hero-2: #d9d0c5;
+  --hero-text: #151210;
+  --display: 'Playfair Display', Georgia, serif;
+}
+
+:root[data-industry='textile'] {
+  --bg: #eee9dc;
+  --bg-soft: #e2dac9;
+  --ink: #13213d;
+  --ink-soft: #1c2f55;
+  --muted: #66708a;
+  --line: rgba(19,33,61,.15);
+  --accent: #e2ae44;
+  --accent-2: #4b6db3;
+  --accent-soft: rgba(226,174,68,.16);
+  --hero: #101c36;
+  --hero-2: #172c53;
+}
+
+:root[data-industry='manufacturing'] {
+  --bg: #ebece8;
+  --bg-soft: #dfe1dc;
+  --ink: #111514;
+  --ink-soft: #202625;
+  --muted: #69716f;
+  --line: rgba(17,21,20,.16);
+  --accent: #f4c62f;
+  --accent-2: #e66b2f;
+  --accent-soft: rgba(244,198,47,.16);
+  --hero: #111513;
+  --hero-2: #232926;
+}
+
+:root[data-industry='services'] {
+  --bg: #eff3f5;
+  --bg-soft: #e0e9ed;
+  --ink: #09161f;
+  --ink-soft: #102635;
+  --muted: #617580;
+  --line: rgba(9,22,31,.14);
+  --accent: #69e7ff;
+  --accent-2: #8d78ff;
+  --accent-soft: rgba(105,231,255,.16);
+  --hero: #08141d;
+  --hero-2: #102735;
+}
