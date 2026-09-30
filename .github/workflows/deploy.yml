@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-
   workflow_dispatch:
 
 permissions:
@@ -36,10 +35,10 @@ jobs:
       - name: Build website
         run: npm run build
 
-- name: Setup GitHub Pages
-  uses: actions/configure-pages@v5
-  with:
-    enablement: true
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
